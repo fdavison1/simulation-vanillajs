@@ -1,0 +1,43 @@
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+header {
+    background: #424249;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 0 40px;
+    color: #FFFDFC;
+}
+
+#title, #total {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Righteous', cursive;
+    padding: 30px;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    height: 100px;
+    width: 50vw;
+}
+
+#monthly {
+    background: #54D2E5;
+}
+
+#addBill {
+    background: #EFE8E1;
+}
