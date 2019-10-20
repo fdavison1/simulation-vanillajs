@@ -30,9 +30,11 @@ function addItem(){
     newItem.id = id
 
     newItem.innerHTML = `
+    <section>
     <label>${nameInput.value}</label>
     <p class='list-amount'>${amountInput.value}</p>
-    <img onclick='removeItem(${id})' src='./assets/trash_can.svg'/>`
+    <img onclick='removeItem(${id})' src='./assets/trash_can.svg'/>
+    </section>`
 
     const list = document.querySelector('#expense-list')
     list.append(newItem)

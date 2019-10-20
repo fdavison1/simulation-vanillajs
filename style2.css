@@ -1,0 +1,121 @@
+/* body {
+    margin: 0;
+} */
+
+header {
+    background: #424249;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFDFC;
+    align-items: center;
+    padding: 20px;
+    /* position: fixed;
+    top: 0; */
+    /* width: 100%; */
+    /* border: solid red; */
+}
+
+/* #title {
+    margin-left: 20px;
+    border: solid red;
+} */
+
+.logo-hold{
+    display: flex;
+    align-items: center;
+    /* border: solid red; */
+    /* margin-left: 20px; */
+}
+
+h1 {
+    font-size: 4rem;
+    /* color: #FFFDFC; */
+    font-family: 'Righteous', cursive;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: 'Roboto', georgia;
+    font-size: 2rem;
+}
+
+body {
+    /* border: solid red; */
+    /* display: inline-block; */
+    line-height: 0;
+    /* width: 100%; */
+    /* margin: 0;
+    position: relative;
+    top: 0;
+    padding: 0; */
+}
+
+/* .window-hold {
+    border: solid black;
+} */
+
+.hero-hold {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.holder {
+    /* border: solid red; */
+    height: 500px;
+    flex-grow: 2;
+    margin: 20px;
+    /* display: flex; */
+    align-items: center;
+    padding: 20px;
+}
+
+h3 {
+    /* font-family: 'Roboto', georgia; */
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    margin: 20px 15px;
+}
+
+.expense-list-hold {
+    background: #EFE8E1;
+}
+
+.form-hold {
+    background: #54D2E5;
+}
+
+p, label {
+    /* border: solid red; */
+    height: 1.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    line-height: 1;
+    margin: 5px;
+}
+
+input {
+    height: 1.5rem;
+    width: 50%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    /* border: solid red; */
+    margin: 10px 0;
+    width: 50%;
+    height: 2rem;
+    font-size: 1.5rem;
+    background: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
